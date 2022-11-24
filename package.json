@@ -4,6 +4,8 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
+    "install": "npm install",
+    "build": "npm run build",
     "start": "node dist/app.js",
     "dev": "nodemon dist/app.js"
   },
