@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npm install",
     "build": "npm run build",
-    "start": "node dist/app.js"
+    "start": "node app.ts"
   },
   "repository": {
     "type": "git",
