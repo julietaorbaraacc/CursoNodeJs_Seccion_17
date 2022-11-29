@@ -4,9 +4,9 @@
   "description": "",
   "main": "dist/app.js",
   "scripts": {
-    "dev": "npm install",
-    "build": "npm run build",
-    "start": "node app.ts"
+    "build": "tsc",
+    "dev": "app.ts",
+    "start": "node dist/app.js"
   },
   "repository": {
     "type": "git",
