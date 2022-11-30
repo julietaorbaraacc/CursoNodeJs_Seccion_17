@@ -5,7 +5,8 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "npm install && npm run build",
-    "start": "yarn run dist/app.js"
+    "start": "yarn start",
+    "dev": "yarn run dist/app.js"
   },
   "repository": {
     "type": "git",
